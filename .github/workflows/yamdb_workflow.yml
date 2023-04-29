@@ -57,6 +57,7 @@ jobs:
         # Пуш образа в Docker Hub 
         uses: docker/build-push-action@v3 
         with:
+          context: ./api_yamdb
           push: true
           tags: mulrustam/infra-web:latest 
 
