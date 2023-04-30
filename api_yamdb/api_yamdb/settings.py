@@ -80,7 +80,7 @@ DATABASES = {
         'USER': 'USER',
         'PASSWORD': 'PASSWORD',
         'HOST': 'localhost',
-        'PORT': 5432
+        'PORT': os.getenv('DB_PORT', 5432)
     }
 }
 
