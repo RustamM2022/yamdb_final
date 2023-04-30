@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -65,14 +65,6 @@ WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
 # Database
 
-# DATABASES = {
-#     'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.postgresql'),
-#     'NAME': os.getenv('DB_NAME', default='NAME'),
-#     'USER': os.getenv('DB_USER', default='USER'),
-#     'PASSWORD': os.getenv('DB_PASSWORD', default='PASSWORD'),
-#     'HOST': os.getenv('DB_HOST', default='localhost'),
-#     'PORT': os.getenv('DB_PORT', default='5432')
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
