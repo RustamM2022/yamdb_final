@@ -1,8 +1,8 @@
-![example workflow](https://github.com/RustamM2022/yamdb_final/actions/workflows/yamdb_worklows.yml/badge.svg)
-
 Отображение статуса workflow:
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RustamM2022/yamdb_final/yamdb_worklows.yml)
+![example workflow](https://github.com/RustamM2022/yamdb_final/actions/workflows/yamdb_worklows.yml/badge.svg)
+
+
 
 # Установка
 Клонировать репозиторий:
@@ -30,4 +30,4 @@ source venv/scripts/activate
 - docker-compose up -d --build
 
 
-Полная документация прокта (redoc) доступна по адресу http://130.193.41.207/redoc/
+Полная документация проекта (redoc) доступна по адресу http://130.193.41.207/redoc/
