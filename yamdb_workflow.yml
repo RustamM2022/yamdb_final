@@ -59,7 +59,7 @@ jobs:
         with:
           context: ./api_yamdb
           push: true
-          tags: mulrustam/infra-web:latest 
+          tags: mulrustam/yamdb_final:latest 
 
   deploy:
     runs-on: ubuntu-latest
