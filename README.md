@@ -1,3 +1,5 @@
+![example workflow](https://github.com/RustamM2022/yamdb_final/actions/workflows/yamdb_worklows.yml/badge.svg)
+
 Отображение статуса workflow:
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/RustamM2022/yamdb_final/yamdb_worklows.yml)
