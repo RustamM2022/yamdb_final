@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -71,8 +71,8 @@ DATABASES = {
         'NAME': 'NAME',
         'USER': 'USER',
         'PASSWORD': 'PASSWORD',
-        'HOST': 'localhost',
-        'PORT': os.getenv('DB_PORT', int(5432))
+        'HOST': 'host',
+        'PORT': os.getenv('DB_PORT', 5432)
     }
 }
 
