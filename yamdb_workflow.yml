@@ -18,7 +18,7 @@ jobs:
         # обновление pip
         python -m pip install --upgrade pip 
         # установка flake8 и его плагинов
-        pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
+        pip install -r requirements_testing.txt
         # установка зависимостей
         cd api_yamdb
         pip install -r requirements.txt 
@@ -65,8 +65,7 @@ jobs:
           script: |
             sudo docker-compose stop
             sudo docker-compose rm web
-            touch .env
-            echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
+            echo DB_ENGINE=${{ secrets.DB_ENGINE }} > .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
             echo POSTGRES_USER=${{ secrets.POSTGRES_USER }} >> .env
             echo POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }} >> .env
