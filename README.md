@@ -1,7 +1,3 @@
-Отображение статуса workflow:
-
-![example workflow](https://github.com/RustamM2022/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-
 ## Описание:
 Проект YaMDb собирает отзывы пользователей о фильмах, музыке, книгах. Пользователи могут публиковать отзывы о произведениях, оценивать их (по шкале от 1 до 10) и обсуждать отзывы в комментариях. Из пользовательских оценок формируется усреднённая оценка произведения — рейтинг (целое число). Список категорий и жанров определен администратором, но может быть расширен в будущем.
 
@@ -45,3 +41,7 @@
 - Python 3.7
 - Django 3.2
 - djangorestframework 3.12.4
+
+Отображение статуса workflow:
+
+![example workflow](https://github.com/RustamM2022/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
